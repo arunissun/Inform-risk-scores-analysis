@@ -1,0 +1,17 @@
+[project]
+name = "inform-risk-score"
+version = "0.1.0"
+description = "Africa Risk Score Analysis - Fetches and analyzes GO Risk API data"
+requires-python = ">=3.10"
+dependencies = [
+    "requests>=2.31.0",
+    "pandas>=2.0.0",
+    "openpyxl>=3.1.0",
+    "ipykernel>=7.1.0",
+    "plotly>=6.5.2",
+    "nbformat>=4.2.0",
+    "seaborn>=0.13.2",
+]
+
+[tool.uv]
+dev-dependencies = []
